@@ -1,0 +1,170 @@
+body{
+    color: rgba(9, 9, 9, 0.84);
+    padding: 0px;
+    margin: 0%;
+    background-color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.top-bar {
+    background-color: #a19f9d;
+    padding: 0.8rem 0;
+    font-size: 0.85rem;
+    position: relative;
+}
+
+.top-bar .page-title {
+    font-weight: 700;
+    line-height: 1;
+}
+
+.back-link {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #333;
+    text-decoration: underline;
+}
+.overall-padding{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.hero img {
+    padding-top: 20px;
+    border-bottom: 4px solid black;
+    padding-bottom: 10px;
+}
+nav ol{
+    display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  justify-content: center;
+    color: black;
+   cursor: pointer;
+ 
+}
+.nav-items ol li {
+    list-style: none;
+    
+}
+.nav-items ol li a{
+   text-decoration: none;
+   color: black;
+   font-weight: 700;
+
+}
+
+.nav-items ol li:hover{
+    border-bottom: 2px solid black;
+}
+
+.section-1{
+    text-align: center;
+    background-color: rgb(99,223, 223);
+}
+
+.gallery{
+   
+    display:flex ;
+    justify-content: space-between;
+    gap: calc(3rem);
+    flex-wrap: wrap;
+   align-items: center;
+}
+.gallery div{
+    position: relative;
+    width: fit-content;
+
+}
+.gallery div p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,30%);
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.article{
+    text-align: center;
+    background-color: rgb(99, 223, 223);
+}
+
+.gallery-2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+     gap: 5px;
+}
+.gallery-2 img{
+    height: 400px;
+    width:580px ;
+}
+.gallery-2 div{
+    position: relative;
+}
+.gallery-2 div  p {
+    max-width: 350px;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    color: white;
+
+}
+
+.form{
+    text-align: center;
+    background-image: url("./assets/Rectangle\ 7280.png");
+    padding: 20px ;
+    padding-bottom: 200px;
+    color: rgb(30, 23, 240);
+   
+}
+.form input{
+    padding: clamp(0.3rem,50vh,1.3rem);
+    margin-left: 1.3rem;
+    margin-bottom: 1.5rem;
+   border: none;
+   opacity: .8;
+   border-radius: 10px;
+   border-bottom: 2px solid rgb(78, 10, 10);
+  
+}
+.form  .submit{
+    border-radius: 1.2rem; 
+}
+.footer{
+  
+    display: flex;
+    background-color: bisque;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 0px 0px 0px;
+}
+.footer .about{
+    color: white;
+   max-width: 400px;
+}
+.footer .logo{
+   padding-top: 30px;
+    
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    background-color: rgb(65, 59, 59);
+}
+.footer-bottom .rights{
+    flex: 80%;
+}
+.footer-bottom .policy{
+    flex: 10% ;
+}
+.footer-bottom .terms{
+    flex: 10%;
+}
+

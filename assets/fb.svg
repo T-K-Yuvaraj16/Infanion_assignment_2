@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="67" height="67" viewBox="0 0 67 67">
+  <g id="Circle_Button_" data-name="Circle Button " transform="translate(0 0)">
+    <rect id="Area_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" data-name="Area [SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="67" height="67" rx="33.5" transform="translate(0 0)" fill="#fff"/>
+    <g id="Icon_" data-name="Icon " transform="translate(20 19)">
+      <rect id="Area_ICON:feather_facebook_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" data-name="Area [ICON:feather/facebook][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="28" height="29" transform="translate(0 0)" fill="#4d4d4d" opacity="0"/>
+      <g id="Icon" transform="translate(7.872 2.763)">
+        <path id="Path" d="M18.718,1.667H15.2A5.856,5.856,0,0,0,9.347,7.523v3.514H5.833v4.686H9.347v9.369h4.686V15.723h3.514l1.171-4.686H14.033V7.523A1.171,1.171,0,0,1,15.2,6.352h3.514Z" transform="translate(-5.833 -1.667)" fill="#4d4d4d"/>
+      </g>
+    </g>
+  </g>
+</svg>
